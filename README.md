@@ -1,8 +1,8 @@
 # Steps to Reproduce
 
 ```bash
-python -m venv venv`
-source venv/bin/activate`
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 cd mysite
 npm init --yes
