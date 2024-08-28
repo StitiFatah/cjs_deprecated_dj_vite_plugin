@@ -9,8 +9,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "django-vite-plugin": "^4.0.1"
-  }
+  },
+  "main": "vite.config.js",
+  "keywords": [],
+  "description": ""
 }
