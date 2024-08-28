@@ -1,0 +1,16 @@
+{
+  "name": "mysite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "django-vite-plugin": "^4.0.1"
+  }
+}

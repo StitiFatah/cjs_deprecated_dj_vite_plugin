@@ -1,0 +1,19 @@
+{% load vite %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movies Page</title>
+    {% vite %} {% vite 'appone/css/movies.css' 'appone/js/movies.js' %}
+  </head>
+  <body>
+    <h1>Movies</h1>
+    <ul>
+      {% for movie in movies %}
+      <li>
+        ID : {{movie.id}} ,title : {{movie.title}}, genre : {{movie.genre}},
+      {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "appone/static/appone/css/movies.css": {
+    "file": "assets/movies-O61pJK-8.css",
+    "src": "appone/static/appone/css/movies.css",
+    "isEntry": true
+  },
+  "appone/static/appone/js/movies.js": {
+    "file": "assets/movies-B8h_-lKl.js",
+    "name": "movies",
+    "src": "appone/static/appone/js/movies.js",
+    "isEntry": true
+  }
+}
